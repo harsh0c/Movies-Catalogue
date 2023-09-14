@@ -49,6 +49,7 @@ const SearchPage = () => {
               date={c.first_air_date || c.release_date}
               media_type={(type==="TV")?"tv":"Movie"}
               vote_average={c.vote_average}
+              sc={c}
             />
           ))}
         {search &&

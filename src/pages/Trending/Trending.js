@@ -34,6 +34,7 @@ function Trending() {
                     date={sc.first_air_date || sc.release_date}
                     media_type={sc.media_type}
                     vote_average={sc.vote_average}
+                    sc={sc}
                 />
             })}
         </div>

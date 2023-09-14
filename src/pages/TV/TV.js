@@ -49,6 +49,7 @@ function TV() {
                     date={sc.first_air_date || sc.release_date}
                     media_type="tv"
                     vote_average={sc.vote_average}
+                    sc={sc}
                 />
             })}
         </div>

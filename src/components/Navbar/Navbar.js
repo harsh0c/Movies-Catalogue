@@ -117,7 +117,7 @@ export default function ButtonAppBar() {
             </Typography>
 
             <Typography variant="h6" component="div"> 
-              <Link to="/TV" style={{textDecoration:"none",color: "#C79F27",display:"flex",flexDirection:"column",alignItems:"center"}}>
+              <Link to="/favorite" style={{textDecoration:"none",color: "#C79F27",display:"flex",flexDirection:"column",alignItems:"center"}}>
                 <FavoriteIcon/>Favorite
               </Link>
             </Typography>
